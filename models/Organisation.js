@@ -18,7 +18,7 @@ const Organisation = sequelize.define('Organisation', {
   },
   creatorId: {
     type: DataTypes.UUID,
-    allowNull: false, // Adjust as per your requirements
+    allowNull: false, 
   },
 }, {
   timestamps: true,
